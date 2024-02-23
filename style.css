@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    transition: all 1s ease-out;
 }
 
 
@@ -11,17 +12,26 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1200px, 100vw);
-    background-image: url(assetes/bg.jpg);
     position: relative;
+    background-color: black;
 }
 .bag{
     height: 100vh;
     width: 100vw;
-    background-color: black;
     opacity: 0.5;
+    position: absolute;
+    background-image: url(assetes/bg.jpg);
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.bagi{
+    height: 100vh;
+    width: 100vw;
     position: absolute;
     left: 0;
     top: 0;
+    background-color: black;
 }
 nav{
     display: flex;
@@ -61,6 +71,7 @@ nav img{
 }
 
 .bg{padding-top: 19%;
+    
     text-align: center;
     color: white;
     height: 61vh;
@@ -399,8 +410,6 @@ nav img{
     
 }
 .g666 ul li h3{
-    /* display: flex; */
-    background-color: #2b2929;
     height: 15vh;
     width: 95vw;
 }
@@ -529,4 +538,504 @@ nav img{
     font-family: sans-serif;
     text-align: left;
     padding-top: 20px;
+}
+.jc{
+    justify-content: center;
+}
+.flex{
+    display: flex;
+}
+.ai{
+    align-items: center;
+}
+@media (max-width :1100px ) {
+    .main{
+        max-height: 50vh;
+    }
+    .bag{
+        height: 50vh;
+    }
+    .bg{
+        padding-top: 18%;
+    }
+    .bagi{
+        height: 50vh;
+    }
+    .bg :nth-child(1) {
+      margin-left: 90px;
+        font-size: 2.8vh;
+        z-index: 1;
+        height: 9%;
+        width: 80vw;
+    }
+    .bg :nth-child(2) {
+        height: 7%;
+        font-size: 2vh; 
+    }
+    .email :nth-child(1) {
+        font-size: 1.5vh;
+    }  
+    .email :nth-child(2) {
+        height: 5vh;
+        padding: 0px 188px 0px 0px;
+    }
+    .email :nth-child(3) {
+        font-size: 2vh;
+        
+    }
+    .line {
+    height: 0.2vh;
+    }
+    .page2 {
+        height: 30vh;
+    }
+    .bag2 {
+    height: 30vh;
+    }
+    .bag2 :nth-child(1) {
+        height: 30vh;
+        width: 45vw;
+    }
+    .g2 :nth-child(1) {
+        height: 5vh;
+        font-size: 3vh;
+    } 
+    .g2 :nth-child(2) {
+        height: 10vh;
+        font-size: 2vh;
+    }
+    .bag2 :nth-child(2) {
+        height: 30vh;
+    }
+    .page3 {
+        height: 30vh;
+    }
+    .bag3 {
+    height: 30vh;
+    }
+    .bag3 :nth-child(1) {
+        height: 30vh;
+        width: 45vw;
+    }
+    .g33 :nth-child(1) {
+        height: 5vh;
+        font-size: 3vh;
+    } 
+    .g33 :nth-child(2) {
+        height: 10vh;
+        font-size: 2vh;
+    }
+    .bag3 :nth-child(2) {
+        height: 30vh;
+    }
+    .page4 {
+        height: 30vh;
+    }
+    .bag4 {
+    height: 30vh;
+    }
+    .bag4 :nth-child(1) {
+        height: 30vh;
+        width: 45vw;
+    }
+    .g4 :nth-child(1) {
+        height: 5vh;
+        font-size: 3vh;
+    } 
+    .g4 :nth-child(2) {
+        height: 10vh;
+        font-size: 2vh;
+    }
+    .bag4 :nth-child(2) {
+        height: 30vh;
+    }
+    .page5 {
+        height: 30vh;
+    }
+    .bag5 {
+    height: 30vh;
+    }
+    .bag5 :nth-child(1) {
+        height: 30vh;
+        width: 45vw;
+    }
+    .g55 :nth-child(1) {
+        height: 5vh;
+        font-size: 3vh;
+    } 
+    .g55 :nth-child(2) {
+        height: 10vh;
+        font-size: 2vh;
+    }
+    .bag5 :nth-child(2) {
+        height: 30vh;
+    }
+    .page6 {
+    height: 55vh;
+    }   
+    .bag6 {
+    height: 60vh;
+    }  
+    .g6 {
+    height: 60vh;
+    width: 92vw;
+    }
+    .g66 {
+    height: 60vh;
+    width: 92vw;
+    }
+    .g66h2 {
+        height: 7vh;
+        width: 92vw;
+    }
+    .g666 {
+    height: 40vh;
+    width: 92vw;
+    }
+    .g666 ul {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    height: 40vh;
+    width: 92vw;
+    }
+    .g666 ul li {
+    height: 4vh;
+    width: 92vw;
+    }
+    .g666 ul li h3 {
+    height: 4vh;
+    width: 92vw;
+    }
+    .g666 ul li h3 button {
+    height: 5vh;
+    width: 92vw;
+    max-width: 95vw;
+    }
+    .email1 :nth-child(1) {
+        font-size: 1.5vh;
+        padding-top: 0;
+    }  
+    .email1 :nth-child(2) {
+        height: 5vh;
+        padding: 0px 188px 0px 0px;
+    }
+    .email1 :nth-child(3) {
+        font-size: 2vh;
+        
+    }
+    .page7 {
+        height: 25vh;
+    }   
+    .bag7 {
+        height: 25vh;
+    }
+    .g7{
+        height: 3vh;
+    } 
+    .g71{
+        height: 10vh;
+    }
+    .g72{
+        height: 3vh;
+    }
+   
+}
+
+@media (max-width :700px ) {
+    .bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding-top: 0;
+    }
+    .bg :nth-child(1) {
+        margin-left: 0px;
+        height: 22%;
+    }
+    nav img {
+    height: 29px;
+    width: 79px;
+    }
+    .email{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .email :nth-child(2) {
+        padding: 0px 136px 0px 0px;
+    }
+    .page2 {
+        height: 45vh;
+    }
+    .bag2 {
+    height: 46vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+    .bag2 :nth-child(1) {
+        text-align: center;
+    height: 12vh;
+    width: 100%;
+    }
+    .bag2 :nth-child(2) {
+        text-align: center;
+    height: 31vh;
+    width: 100%;
+    }
+    .g2 :nth-child(1){
+        text-align: center;
+        padding: 0;
+        height: 7vh;
+    }
+    .g2 :nth-child(2){
+        text-align: center;
+        padding: 0;
+        height: 5vh;
+    }
+    .g22 :nth-child(1){
+        text-align: center;
+        height: 35vh;
+    }
+    .g22 :nth-child(2){
+        text-align: center;
+        height: 35vh;
+        margin-left: -18px;
+    }
+    .page3 {
+        height: 45vh;
+    }
+    .bag3{
+    height: 46vh;
+    width: 83vw;
+    margin-left: 39px;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    }
+    .bag3 :nth-child(1) {
+        text-align: center;
+    height: 31vh;
+    width: 100%;
+    }
+    .bag3 :nth-child(2) {
+        text-align: center;
+    height: 12vh;
+    width: 100%;
+    }
+    .g33 :nth-child(1){
+        text-align: center;
+        padding: 0;
+        height: 9vh;
+    }
+    .g33 :nth-child(2){
+        text-align: center;
+        padding: 0;
+        height: 5vh;
+    }
+    .g3 :nth-child(1) {
+        left: 0;
+    height: 30vh;
+    width: 100vw;
+    }
+
+    .page4 {
+        height: 45vh;
+    }
+    .bag4 {
+    height: 46vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+    .bag4 :nth-child(1) {
+        text-align: center;
+    height: 12vh;
+    width: 100%;
+    }
+    .bag4 :nth-child(2) {
+        text-align: center;
+    height: 31vh;
+    width: 100%;
+    }
+    .g4 :nth-child(1){
+        text-align: center;
+        padding: 0;
+        height: 7vh;
+    }
+    .g4 :nth-child(2){
+        text-align: center;
+        padding: 0;
+        height: 5vh;
+    }
+    .g44 :nth-child(1){
+        text-align: center;
+        height: 35vh;
+        margin-top: 0;
+        left: 0;
+    }
+    .g44 :nth-child(2){
+        text-align: center;
+        height: 16vh;
+        margin: 23px 1px 1px 1px;
+        left: 0;
+    }
+    .page5 {
+        height: 45vh;
+        width: 100%;
+    }
+    .bag5{
+    height: 46vh;
+    width: 100%;
+    margin-left: 39px;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    }
+    .bag5 :nth-child(1) {
+        text-align: center;
+    height: 31vh;
+    width: 100%;
+    }
+    .bag5 :nth-child(2) {
+        text-align: center;
+    height: 12vh;
+    width: 100%;
+    }
+    .g55 :nth-child(1){
+        text-align: center;
+        padding: 0;
+        height: 7vh;
+    }
+    .g55 :nth-child(2){
+        text-align: center;
+        padding: 0;
+        height: 5vh;
+    }
+    .g5 :nth-child(1) {
+        left: 0;
+    height: 30vh;
+    width: 100vw;
+    }
+    .page6 {
+        height: 89vh;
+        width: 100%;
+        padding-top: 47px;
+        }   
+        .bag6 {
+            
+        height: 100%;
+        }  
+        .g6 {
+        height: 100%;
+        width: 92vw;
+        margin-left: 18px;
+        }
+        .g66 {
+        height: 100%;
+        width: 92vw;
+        }
+        .g66h2 {
+            height: 10vh;
+            width: 92vw;
+            font-size: 189%;
+        }
+        .g666 {
+        height: 40vh;
+        width: 92vw;
+        }
+        .g666 ul {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        height: 66vh;
+        width: 92vw;
+        }
+        .g666 ul li {
+        height: 8vh;
+        width: 92vw;
+        }
+        .g666 ul li h3 {
+        height: 8vh;
+        width: 92vw;
+        }
+        .g666 ul li h3 button {
+        height: 8vh;
+        width: 92vw;
+        max-width: 95vw;
+        }
+        .g666 ul li h3 button :first-child {
+            font-size: 125%;
+            width: 59vw;
+        }
+        .email1 :nth-child(1) {
+            font-size: 1.5vh;
+            padding-top: 0;
+        }  
+        .email1 :nth-child(2) {
+            height: 5vh;
+            padding: 0px 188px 0px 0px;
+        }
+        .email1 :nth-child(3) {
+            font-size: 2vh;
+            
+        }
+        .page7 {
+            height: 50vh;
+            padding-top: 20px;
+        }   
+        .bag7 {
+            height: 50vh;
+        }
+        .g7{
+            height: 5vh;
+        } 
+        .g71{
+            height: 28vh;
+        }
+        .g71 ul {
+            display: grid;
+            grid-template-columns: 45vw 22vw ;
+            row-gap: 10px;
+        }
+        .g72{
+            height: 5vh;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
